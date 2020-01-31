@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function WelcomePage() {
   return (
     <section className="welcome-page">
@@ -10,6 +11,8 @@ export default function WelcomePage() {
           src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
           alt="rick"
         />
+        <Link to="/characters"><button>CHARACTER LIST</button></Link>
+        
       </header>
     </section>
   );
