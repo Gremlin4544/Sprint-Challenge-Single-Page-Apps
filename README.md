@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer: The benefit of 
+> Answer: The benefit of client side routing is that the browswer doesn't make get requests every time a user interacts with the page.
 
 ## Project Set Up
 
