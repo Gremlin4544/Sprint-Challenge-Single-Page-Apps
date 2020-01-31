@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 export default function WelcomePage() {
   return (
@@ -12,7 +12,7 @@ export default function WelcomePage() {
           alt="rick"
         />
         <Link to="/characters"><button>CHARACTER LIST</button></Link>
-        
+
       </header>
     </section>
   );

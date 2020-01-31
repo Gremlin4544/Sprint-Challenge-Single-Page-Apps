@@ -1,8 +1,14 @@
 import React from "react";
-import CharacterList from "./CharacterList";
 
-export default function CharacterCard() {
-  return <span>todo: character
-  <CharacterList />
-  </span>;
-}
+export default function CharacterCard( {character} ) {
+
+  return (
+    <div>
+      <h3>Name: {character.name}</h3>
+      <h4>Species: {character.species}</h4>
+      <h5>Status: {character.status}</h5>
+      <img src={character.image} alt={character.name} />
+    </div>
+  );
+ 
+};
